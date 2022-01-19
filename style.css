@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color:transparent;
+}
+
+.topnav a {
+  float:right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:crimson;
+  color: black;
+}
+.logo{
+	color: white;
+	font-family: ubuntu;
+	font-weight: bolder;
+}
+.logo :hover{
+	color:gold;
+	cursor: pointer;
+}
+span{
+    color: crimson;
+}
+.bg{
+	background-image:url(student.jpg);
+	background-repeat:  no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+.mm{
+   color: white;
+   font-family: cursive;
+   margin-top:80px;
+}
+.qq{
+	font-size: 50px;
+}
+.kk{
+	color: white;
+	font-size: 30px;
+	color: crimson;
+	font-weight: 300;
+}
+.kk:hover{
+	color: black;
+
+}
+.img{
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(plain.jpg);
+}
+.pp{
+	color: white;
+	text-align: center;
+	font-family:ubuntu;
+	font-size:55px ;
+}
+.pp1{
+	color:white;
+	text-align: center;
+	font-family:ubuntu;
+	font-size:35px ;
+}
+.pp2{
+	font-family: ubuntu;
+	color:white;
+ font-weight:bolder ;
+ font-size: 25px;
+}
+
+.zz{
+	background-image: url(plain.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.main{
+    width:400px;
+    height:100px;
+    background-color:transparent;
+    display: flex;
+	justify-items: center;
+	align-items: center;
+}
+.qw{
+	width:200px;
+	height: 90px;
+	background-color: aqua;
+	margin: 15px 15px 20px 15px;
+	font-family: ubuntu;
+	font-weight:bolder;
+	text-align: center;
+	box-shadow:10px 5px 5px 3px ;
+ text-decoration:none ;  
+}
+.qw:hover{
+	cursor: pointer;
+	color: green;
+}
+footer{
+	background-color: black;
+	color: white;
+	font-family: ubuntu;
+	text-align: center;
+}
